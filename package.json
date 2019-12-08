@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/foresta/actions-sample/issues"
   },
-  "homepage": "https://github.com/foresta/actions-sample#readme"
+  "homepage": "https://github.com/foresta/actions-sample#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0"
+  }
 }

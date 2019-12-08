@@ -1,0 +1,13 @@
+name: 'Sample'
+description: 'Sample of GitHub Actions'
+inputs:
+    username:
+        description: "Username"
+        requried: true
+        default: "Hoge"
+outputs:
+    time:
+        description: 'The time'
+runs:
+    using: 'node12'
+    main: 'index.js'

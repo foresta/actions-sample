@@ -22,3 +22,9 @@ uses: foresta/actions-sample@v1
 with:
   username: 'foresta'
 ```
+
+## Build
+
+```bash
+npm run build
+```
